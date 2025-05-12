@@ -2,11 +2,11 @@
 
 @section('titulo')
 
-    Página Principal
+Tienda
 
 @endsection
 
 @section('contenido')
 
-Contenido de esta Página
+Contenido de la Tienda
 @endsection
