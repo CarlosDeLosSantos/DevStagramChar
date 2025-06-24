@@ -9,7 +9,7 @@
     </head>
 
     <body class="bg-gray-100">
-        <header class="p-5 border-b bg-white shadow">
+        <header class="p-5  bg-white shadow-xl">
             <div class="container mx-auto flex justify-between items-center">
                 <h1 class="text-3xl font-black">
                     Devstagram
@@ -17,7 +17,7 @@
 
                 <nav class=" flex gap-2">
                     <a class="font-bold uppercase text-gray-600" href="#">Login</a>
-                    <a class="font-bold uppercase text-gray-600" href="/crear-cuenta">Crear Cuenta</a>
+                    <a class="font-bold uppercase text-gray-600" href="{{route('register')}}">Crear Cuenta</a>
                     <a href=""></a>
                     <a href=""></a>
                 </nav>
@@ -34,7 +34,7 @@
             @yield('contenido')
         </main>
 
-        <footer class="text-center p-5 text-gray-500 font-bold uppercase">
+        <footer class="mt-10 text-center p-5 text-gray-500 font-bold uppercase">
             Devstagram - Todos los derechos reservados 
             {{now()->year}}
             @php
